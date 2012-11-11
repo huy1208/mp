@@ -1,12 +1,13 @@
 <div id="footer">
   <div class="column">
-    <h3><?php echo $text_information; ?></h3>
+    <h3>Lien he</h3>
     <ul>
-      <?php foreach ($informations as $information) { ?>
-      <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-      <?php } ?>
+      <li>E-mail: huyphatle@gmail.com</li>
+      <li>Phone:01024498304</li>      
     </ul>
   </div>
+
+  <!-- 
   <div class="column">
     <h3><?php echo $text_service; ?></h3>
     <ul>
@@ -33,7 +34,10 @@
       <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
     </ul>
   </div>
+  -->
+  
 </div>
+
 <!-- 
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
