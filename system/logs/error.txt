@@ -1,0 +1,1 @@
+2012-11-10 15:30:15 - PHP Notice:  Error: Could not load template E:\work\wamp\www\mp/view/template/common/header.tpl! in E:\work\wamp\www\mp\system\engine\controller.php on line 71
