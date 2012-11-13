@@ -21,10 +21,7 @@
       <?php } ?>
     </div>
     <?php } ?>
-
-
     <div class="right">
-    <!--
       <div class="description">
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
@@ -34,15 +31,12 @@
         <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
         <?php } ?>
         <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
-              -->
-
-
-      <?php if ($price) { ?>    
+      <?php if ($price) { ?>
       <div class="price"><?php echo $text_price; ?>
         <?php if (!$special) { ?>
         <?php echo $price; ?>
         <?php } else { ?>
-        <span class="price-old"><?php echo $price; ?></span> <br />  <span class="price-new"><?php echo $special; ?></span>
+        <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
         <?php } ?>
         <br />
         <?php if ($tax) { ?>
@@ -62,10 +56,6 @@
       </div>
       <?php } ?>
       <?php if ($options) { ?>
-
-
-
- 
       <div class="options">
         <h2><?php echo $text_option; ?></h2>
         <br />
@@ -210,16 +200,8 @@
         <?php } ?>
         <?php } ?>
       </div>
-	<!-- disable option
-
--->
-     
-      
       <?php } ?>
-          <!-- huy: comment  
       <div class="cart">
-
-      
         <div><?php echo $text_qty; ?>
           <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
           <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
@@ -232,36 +214,28 @@
         <div class="minimum"><?php echo $text_minimum; ?></div>
         <?php } ?>
       </div>
-      
       <?php if ($review_status) { ?>
       <div class="review">
         <div><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
-        <div class="share">
+        <div class="share"><!-- AddThis Button BEGIN -->
           <div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
           <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script> 
-         
+          <!-- AddThis Button END --> 
         </div>
       </div>
       <?php } ?>
--->
-
     </div>
   </div>
-
-
-  
   <div id="tabs" class="htabs"><a href="#tab-description"><?php echo $tab_description; ?></a>
     <?php if ($attribute_groups) { ?>
     <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
     <?php } ?>
-        <!--
     <?php if ($review_status) { ?>
     <a href="#tab-review"><?php echo $tab_review; ?></a>
     <?php } ?>
     <?php if ($products) { ?>
     <a href="#tab-related"><?php echo $tab_related; ?> (<?php echo count($products); ?>)</a>
     <?php } ?>
-    -->
   </div>
   <div id="tab-description" class="tab-content"><?php echo $description; ?></div>
   <?php if ($attribute_groups) { ?>
@@ -286,8 +260,6 @@
   </div>
   <?php } ?>
   <?php if ($review_status) { ?>
-
-  <!-- huy: comment  
   <div id="tab-review" class="tab-content">
     <div id="review"></div>
     <h2 id="review-title"><?php echo $text_write; ?></h2>
@@ -320,8 +292,6 @@
       <div class="right"><a id="button-review" class="button"><?php echo $button_continue; ?></a></div>
     </div>
   </div>
-  -->
-  
   <?php } ?>
   <?php if ($products) { ?>
   <div id="tab-related" class="tab-content">
