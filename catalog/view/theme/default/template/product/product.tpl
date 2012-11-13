@@ -61,7 +61,8 @@
       <?php } ?>
       <?php if ($options) { ?>
 
-	
+
+
  
       <div class="options">
         <h2><?php echo $text_option; ?></h2>
@@ -207,13 +208,15 @@
         <?php } ?>
         <?php } ?>
       </div>
+	<!-- disable option
 
+-->
      
       
       <?php } ?>
-      
+          <!-- huy: comment  
       <div class="cart">
-      <!-- huy: comment
+
       
         <div><?php echo $text_qty; ?>
           <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
@@ -227,10 +230,6 @@
         <div class="minimum"><?php echo $text_minimum; ?></div>
         <?php } ?>
       </div>
--->
-
-
-<!-- huy: comment
       
       <?php if ($review_status) { ?>
       <div class="review">

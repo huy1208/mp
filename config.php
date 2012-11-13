@@ -12,7 +12,7 @@ define('HTTPS_IMAGE', 'http://myphamhan.tk/mp/image/');
 define('DIR_APPLICATION', 'E:\work\wamp\www\mp/catalog/');
 define('DIR_SYSTEM', 'E:\work\wamp\www\mp/system/');
 define('DIR_DATABASE', 'E:\work\wamp\www\mp/system/database/');
-define('DIR_LANGUAGE', 'E:\work\wamp\www\mp/catalog/language/');
+define('DIR_LANGUAGE', 'E:\work\wamp\www\mp\catalog\language/');
 define('DIR_TEMPLATE', 'E:\work\wamp\www\mp/catalog/view/theme/');
 define('DIR_CONFIG', 'E:\work\wamp\www\mp/system/config/');
 define('DIR_IMAGE', 'E:\work\wamp\www\mp/image/');
