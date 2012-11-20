@@ -61,9 +61,16 @@
         <?php } ?>
       </div>
       <?php } ?>
+
+      <br />
+
+	<div > 
+		huong dan order hang
+	</div>
+	
+
+      
       <?php if ($options) { ?>
-
-
 
  
       <div class="options">
